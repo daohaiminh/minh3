@@ -1,0 +1,193 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1px" id="idtable" >
+        <tr><td>STT</td>
+        <td>Tên sản phẩm</td>
+        <td>Giá</td>
+        <td>Số lượng</td>
+        <td>Thành tiền</td>
+        </tr>
+
+        <tr><td>1</td>
+        <td>Máy tính dell</td>
+        <td>5000</td>
+        <td><input type="number" min="0" onchange="thanhtien(this)"></td>
+        <td><span></span></td>
+        <td><button type="button" onclick="addfn(this)">Thêm</button></td>   
+        </tr>
+
+        <tr><td>2</td>
+        <td>Iphone 8</td>
+        <td>3000</td>
+        <td><input type="number" min="0" onchange="thanhtien(this)"></td>
+        <td><span></span></td>
+        <td><button type="button" onclick="addfn(this)">Thêm</button></td>
+        </tr>
+
+        <tr><td>3</td>
+        <td>SamSung galaxy</td>
+        <td>4000</td>
+        <td><input type="number" min="0" onchange="thanhtien(this)"></td>
+        <td><span></span></td>
+        <td><button type="button" onclick="addfn(this)">Thêm</button></td>
+        </tr>
+        <tr>
+            <td colspan="4">Tổng tiền</td>
+            <td><span></span></td>
+        </tr>
+    </table>
+
+
+    <table id="cartsp" style="margin-top: 40px;">
+
+    </table>
+    <script src="giohang.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website bán áo Đào Hải Minh </title>
+    <link rel="stylesheet" href="trangchu.css">
+    <style>
+       
+        table {
+            margin-top: 50px;
+            text-align: center;
+            width: 1200px;
+            height: 300px;
+            font-size: 30px;
+        }
+        table tr{
+            width: 200px;
+        }
+        .toanbo {
+            text-align: center;
+        }
+        .footer{
+            position: absolute;
+            top: 600px;
+            width: 1200px;
+        }
+        table tr td input{
+            border: 0px;
+            width: 200px;
+            height: 100px;
+            font-size: 30px;
+        }
+        table tr td button{
+            font-size: 30px;
+            width: 150px;
+            height: 50px;
+            background-color: darkgray;
+        }
+        table tr td strong{
+            color: red;
+        }
+        table tr td a strong:hover{
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="toanbo">
+            
+        
+            <nav class="logo">
+                <img src="img/1.png" alt="" width="90%">
+            </nav>
+            <nav class="btn">
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Tìm kiếm 1 thứ gì đó" required><button>Tìm kiếm</button>
+                    <button><a href="dangnhap.html">Đăng nhập</a></button>
+                    <button><a href="dangki.html">Đăng kí</a></button>
+                </form>
+            </nav>
+        
+             
+            <div class="anh">
+                <img src="img/anh1.jpg" alt="" width="100%">
+            </div><BR></BR>
+            <marquee scrollamount="15"><Strong>Ở ĐÂY BÁN ÁO ĐẸP GẦN BẰNG NGƯỜI YÊU CŨ CỦA BẠN :(</Strong>
+                
+            </marquee><BR><BR>
+        <div class="menu" style="clear: both;">
+            <ul>
+                <li><a href="index.html"><strong>Trang chủ</strong></a></li>
+                <li><a href="Xemchitiet.html"><strong>Sản Phẩm</strong></a></li>
+                <li><a href="Hotro.html"><strong>Hỗ trợ</strong></a></li>
+                <li><a href="Gioithieu.html"><strong>Giới Thiệu</strong> </a></li>
+                <li><a href="giohang.html"><strong>Giỏ Hàng</strong> </a></li>
+                
+            </ul>
+            
+        </div><BR><br>
+
+            <table border="1px" id="idtable">
+                <tr><td>STT</td>
+                <td>Tên sản phẩm</td>
+                <td>Giá</td>
+                <td>Số lượng</td>
+                <td>Thành tiền</td>
+                </tr>
+        
+                <tr><td>1</td>
+                <td>Áo Polo đen trắng <a href="Xemchitiet.html"><strong>Xem chi tiết</strong></a></td>
+                <td>99</td>
+                <td><input type="number" min="0" onchange="thanhtien(this)"></td>
+                <td><span></span></td>
+                <td><button type="button" onclick="addfn(this)">Thêm</button></td>   
+                </tr>
+        
+                <tr><td>2</td>
+                <td>Áo PoLo Trắng Đen <a href="Xemchitiet2.html"><strong>Xem chi tiết</strong></a></td>
+                <td>99</td>
+                <td><input type="number" min="0" onchange="thanhtien(this)"></td>
+                <td><span></span></td>
+                <td><button type="button" onclick="addfn(this)">Thêm</button></td>
+                </tr>
+        
+                <tr><td>3</td>
+                <td>Áo Polo nam trắng cổ đen <a href="Xemchitiet2.html"><strong>Xem chi tiết</strong></a></td>
+                <td>99</td>
+                <td><input type="number" min="0" onchange="thanhtien(this)"></td>
+                <td><span></span></td>
+                <td><button type="button" onclick="addfn(this)">Thêm</button></td>
+                </tr>
+                <tr>
+                    <td colspan="4">Tổng tiền</td>
+                    <td><span></span></td>
+                    <td><button><a href="index.html">Đặt hàng</a></button></td>
+                </tr>
+                
+            </table>
+        
+        
+            <table id="cartsp" style="margin-top: 40px;">
+        
+            </table>
+    
+    <div class="footer">
+        
+        <H1>SHOP ÁO ĐÀO HẢI MINH</H1><H1> Rẻ như bèo , nghèo ũng có tiền mua</H1>
+        <h2>SĐT liên hệ : 0 3 7 2 0 7 8 J Q K </h2>
+        
+    </div>
+</div></div>
+<script src="giohang.js"></script>
+</body>
+
+
+</html>

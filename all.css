@@ -1,0 +1,67 @@
+.toanbo{
+    width: 1200px;
+    margin:  0px auto;
+    
+    position: relative;
+}
+.logo{
+    text-align: center;
+    float: left;
+    
+}.logo>form{
+    position: absolute;
+    top: 100px;
+    left: 875px;
+}
+
+
+form>input{
+    width: 308px;
+    height: 50px;
+    border: 5px solid black;
+}
+form>button{
+    border: 5px solid black;
+    float: right;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    background-color:burlywood ;
+} 
+.menu{
+    background-color: white;
+  text-align: center;
+}
+
+li{
+    
+    text-decoration: none;
+    font-size: 35px;
+    display: inline;
+    margin-left: 40px;
+}
+a{ 
+    color: black;
+    font-style: oblique;
+    text-decoration: none;
+}
+
+.footer{
+    clear: both;
+   margin-top: 50px;
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding: 5px;
+   width: 100%;
+}
+marquee{
+    font-size: 30PX;
+    color: black;
+}
+h2>a:hover{
+    color: red;
+}
+
+
+

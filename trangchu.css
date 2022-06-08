@@ -1,0 +1,107 @@
+.toanbo{
+    width: 1200px;
+    margin:  0px auto;
+    /* border: 5px solid black; */
+    text-align: center;
+    border-radius: 20px;
+    
+   
+}
+
+.logo{
+    width: 300px;
+    
+    float: left;
+}
+.btn{
+    float: left;
+    width: 890px;
+}
+.btn input{
+    width: 50%;
+    height:40px;
+}
+.btn button{
+    width: 10%;
+    height: 45px;
+    background-color:burlywood ;
+}
+
+
+
+.t>form{
+    position: absolute;
+    top: 100px;
+    right: 0px; 
+}
+.t>form>button{
+    width: 130px;
+    height: 62px;
+}
+.menu{
+    background-color: white;
+  text-align: center;
+}
+
+li{
+    
+    text-decoration: none;
+    font-size: 35px;
+    display: inline;
+    margin-left: 40px;
+}
+a{ 
+    color: black;
+    font-style: oblique;
+    text-decoration: none;
+}
+.sp1{
+    margin-left: 80PX;
+    float: left;
+    text-align: center;
+    border: 1px solid black;
+    width: 200px;
+    border-radius: 20px;
+}
+.sp1>a{
+    font-size: 30px;
+    color: black ;
+    
+}
+.menu>ul>li>a:hover{
+     color: red;
+}
+.sp1>img{
+    margin-top: 15px;
+}
+.sp1>p{
+    text-decoration: line-through;
+    color: red;
+    font-size: 25px;
+}
+.sp2{
+    margin-top: 550px;
+}
+.sp3{
+    margin-top: 1100px;
+    
+}
+.footer{
+    clear: both;
+   margin-top: 1650px;
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding: 5px;
+   width: 100%;
+}
+marquee{
+    font-size: 30PX;
+    color: black;
+}
+h2>a:hover{
+    color: red;
+}
+
+
+

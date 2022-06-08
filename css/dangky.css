@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 980px;
+    margin: 0px auto;
+}
+header{
+    text-align: center;
+    margin-bottom: 54px;
+    margin-top: 48px;
+}
+nav ul{
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 0px 17px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    display: block;
+}
+nav ul li a:hover{
+    color: white;
+    background: #000;
+}
+article h1{
+    text-align: center;
+    margin-top: 156px;
+    font-size: 96px;
+    margin-bottom: 32px;
+}
+article table{
+    margin-left: 300px;
+}
+article table tr td label{
+    margin: 0px 40px;
+    font-family: 'Roboto', sans-serif;
+}
+article table tr td input{
+    height: 25px;
+}
+article form{
+    line-height: 40px;
+}
+.button{
+    text-align: center;
+}
+.button button{
+    padding: 10px 10px;
+    margin-top: 20px;
+    border: none;
+    width: 100px;
+    border-radius: 4px;
+}
+.button button:hover{
+    background-color: cyan;
+    color: white;
+    cursor: pointer;
+}
